@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Orbitron&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+p, a {
+    font-family: 'Poppins', sans-serif;
+}
+
+a,
+ul,
+ol {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* :root {
+    
+} */
+
+/* -------------------------------------- */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(../img/logged.jpg);
+    background-size: 100% 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+._error {
+    border-bottom: solid 1px red !important;
+    color: red !important;
+}
+
+.back a {
+    position: relative;
+    top: 10px;
+    left: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+.back a ion-icon {
+    position: relative;
+    top: 2px;
+    font-size: 20px;
+    color: black;
+}
+
+.sign_inPage {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    transition: .5;
+}
+
+.container .sign_inPage before {
+    position: relative;
+    top: 50px;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 0 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .sign_inPage before ion-icon {
+    font-size: 38px;
+    color: rgb(223, 43, 43);
+}
+
+.sign_inPage h1 {
+    position: relative;
+    margin-top: 60px;
+}
+
+.sign_inPage p {
+    position: relative;
+    text-align: center;
+    width: 400px;
+    line-height: 1.5;
+}
+
+.sign_inPage .box_input {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    border-bottom: solid 1px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign_inPage .box_input span {
+    position: relative;
+    top: 1px;
+    font-size: 20px;
+}
+
+.sign_inPage input {
+    position: relative;
+    top: -1px;
+    width: 370px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.sign_inPage button {
+    position: relative;
+    margin-top: 50px;
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 0 5px black;
+    background-size: 100% 100%;
+}
+
+.loader_in {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    border-radius: 20px;
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/loader.gif);
+    background-size: 100% 100%;
+}
+
+.sign_inPage .sign_up {
+    position: relative;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.sign_inPage .avtor {
+    position: relative;
+    margin-top: 115px;
+    font-weight: bold;
+}
+
+.sign_upPage {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    transition: .5;
+}
+
+.sign_upPage before {
+    position: relative;
+    top: 50px;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 0 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign_upPage before ion-icon {
+    font-size: 38px;
+    color: rgb(223, 43, 43);
+}
+
+.sign_upPage h1 {
+    position: relative;
+    margin-top: 60px;
+}
+
+.sign_upPage p {
+    position: relative;
+    text-align: center;
+    width: 400px;
+    line-height: 1.5;
+}
+
+.sign_upPage input {
+    position: relative;
+    top: -1px;
+    width: 370px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.sign_upPage .box_input {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    border-bottom: solid 1px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign_upPage .box_input span {
+    position: relative;
+    top: -29px;
+    font-size: 20px;
+}
+
+.sign_upPage .password_box input {
+    width: 310px;
+}
+
+.sign_upPage .password_box .show {
+    position: relative;
+    left: 30px;
+    opacity: 0;
+}
+
+.sign_upPage .password_box .show,
+.sign_upPage .password_box .hide {
+    position: relative;
+    top: -25px;
+}
+
+.show_active {
+    opacity: 1;
+    z-index: 1;
+}
+.hide_active {
+    opacity: 0;
+    z-index: 0;
+}
+
+.sign_upPage button {
+    position: relative;
+    margin-top: 30px;
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 0 5px black;
+}
+
+.sign_upPage .sign_up {
+    position: relative;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.sign_upPage span {
+    position: relative;
+    margin-top: 60px;
+    font-weight: bold;
+}

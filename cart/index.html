@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="shortcut icon" href="../img/icon_window.png">
+    <script src="basket.js" defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Storage cart</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <header>
+                <div class="logo"></div>
+                <div class="box_right_items">
+                    <button class="home"><a href="../index.html"><ion-icon name="home-outline"></ion-icon> HOME</a></button>
+                    <div class="input_box">
+                        <input type="search" class="search" placeholder="Search...">
+                        <span><ion-icon name="search-outline"></ion-icon></span>
+                    </div>
+                    <div class="post_category">
+                        <section class="choose_section">
+                            <button class="choose choose_active">Category</button>
+                            <ion-icon class="choose_icon" name="chevron-down-outline"></ion-icon>
+                            <ion-icon class="choose_remove" name="close-outline"></ion-icon>
+                        </section>
+                        <section class="category_section category_section_active">
+                            <button data-filter="Shoes" class="category">Shoes</button>
+                            <button data-filter="Slippers" class="category">Slippers</button>
+                            <button data-filter="Skirt" class="category">Skirts</button>
+                            <button data-filter="Dresses" class="category all_stuff">Dresses</button>
+                        </section>
+                    </div>
+                </div>
+            </header>
+            <div class="card_inner">
+                <!-- <div class="card">
+                    <div class="img_inner"></div>
+                    <h2 class="name_of_product">Air Jordan exclusive</h2>
+                    <p class="other_info">Lorem ipsum dolor sit amet</p>
+                    <h2 class="price">$128.00</h2>
+                    <div class="grade">
+                        <div class="items">
+                            <input type="radio" id="item_rating" class="label_input" name="star_voted" value="5">
+                            <label for="item_rating" class="label_rating"></label>
+                            <input type="radio" id="item_rating" class="label_input" name="star_voted" value="4">
+                            <label for="item_rating" class="label_rating"></label>
+                            <input type="radio" checked id="item_rating" class="label_input" name="star_voted" value="3">
+                            <label for="item_rating" class="label_rating"></label>
+                            <input type="radio" id="item_rating" class="label_input" name="star_voted" value="2">
+                            <label for="item_rating" class="label_rating"></label>
+                            <input type="radio" id="item_rating" class="label_input" name="star_voted" value="1">
+                            <label for="item_rating" class="label_rating"></label>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="delete_button">Delete</button>
+                        <button class="buy_buttton">Buy Now</button>
+                    </div>
+                </div> -->
+            </div>
+            <footer></footer>
+        </div>
+    </div>
+</body>
+</html>

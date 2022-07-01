@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style & media/style.css">
+    <link rel="stylesheet" href="./style & media/media.css">
+    <link rel="shortcut icon" href="./img/icon_window.png">
+    <style>
+        .cards_innner {
+            opacity: 0;
+        }
+    </style>
+    <script src="./scripts/headScript.js" defer></script>
+    <script src="./scripts/allFetchs.js"defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>FARFETCH</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="for_PC for_PC_page1">
+            <div class="menu_bar">
+                <section>
+                    <div class="show_menu">
+                        <p class="close_menu"><ion-icon name="close-outline"></ion-icon></p>
+                        <span class="basket"><a href="./cart/index.html"><ion-icon name="cart-outline"></ion-icon></a></span>
+                        <span class="login_up"><a href="./login/index.html"><ion-icon name="log-in-outline"></ion-icon></a></span>
+                    </div>
+                    <span class="menu"><ion-icon name="apps-outline"></ion-icon></span>
+                    <span class="change_login"><ion-icon name="shield-checkmark-outline"></ion-icon></span>
+                </section>
+                <section>
+                    <h4>Your choise Important</h4>
+                    <span class="language"><ion-icon name="language-outline"></ion-icon></span>
+                </section>
+            </div>
+    
+            <div class="text_page">
+                <div class="logo"></div>
+                <p>Nike | New balance <span>----></span></p>
+                <h1>COLLE<mark>CTION</mark> <br> MODER<mark>N CLOTHES</mark></h1>
+                <p>Make a choise <button class="collecrion_page"><ion-icon name="chevron-forward-outline"></ion-icon></button></p>
+            </div>
+    
+            <div class="other_content">
+                <ul>
+                    <li><a href="#">360⟳ Show</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <button class="prev">Prev</button>
+                    <button class="next">Next</button>
+                </ul>
+                <h1>CLOTHES</h1>
+                <div class="img_clothes1"><img class="img1" src="./img/cloth1.jpg" alt=""></div>
+                <div class="img_clothes2"><img class="img2" src="./img/cloth2.jpg" alt=""></div>
+            </div>
+        </div>
+        <div class="for_PC for_PC_page2">
+            <header>
+                <button class="create_product"><ion-icon name="bag-add-outline"></ion-icon> Create product</button>
+                <div class="headers_items">
+                    <input class="search" type="search" placeholder="Search...">
+                    <span class="start_search"><ion-icon name="search-outline"></ion-icon></span>
+                </div>
+                <div class="post_category">
+                    <section class="choose_section">
+                        <button class="choose choose_active">Category</button>
+                        <ion-icon class="choose_icon" name="chevron-down-outline"></ion-icon>
+                        <ion-icon class="choose_remove" name="close-outline"></ion-icon>
+                    </section>
+                    <section class="category_section category_section_active">
+                        <button data-filter="Shoes" class="categoryes">Shoes</button>
+                        <button data-filter="Slippers" class="categoryes">Slippers</button>
+                        <button data-filter="Skirts" class="categoryes">Skirts</button>
+                        <button data-filter="Dress" class="categoryes all_stuff">Dresses</button>
+                    </section>
+                </div>
+            </header>
+            <div class="create_product_page">
+                <before><ion-icon name="radio-button-off-outline"></ion-icon></before>
+                <label for="title">Title:</label>
+                <input class="input title" type="text" maxlength="15">
+                <label for="description">Description:</label>
+                <input class="input description" type="text" maxlength="30">
+                <label for="price">Price:</label>
+                <input class="input price" type="text" maxlength="7">
+                <label for="image_url">Image_url:</label>
+                <input class="input image_url" type="text" maxlength="250">
+                <label for="category">Category:</label>
+                <input class="input category" type="text" maxlength="2">
+                <section>
+                    <button class="close">CLOSE</button>
+                    <button class="add">ADD</button>
+                </section>
+            </div>
+            <div class="cards_innner">
+                <h1 class="loader">Loading please wait...</h1>
+                <!-- <div class="card">
+                    <span class="cart"><ion-icon name="cart-outline"></ion-icon></span>
+                    <div class="img_inner"></div>
+                    <h2 class="name_of_product">Air Jordan exclusive</h2>
+                    <p class="other_info">Lorem ipsum dolor sit amet</p>
+                    <h2 class="price">$128.00</h2>
+                    <div class="grade">
+                        <div class="items">
+                            <input type="radio" id="item_rating" class="label_input" name="star_voted" value="5">
+                            <label for="item_rating" class="label_rating"></label>
+                            <input type="radio" id="item_rating" class="label_input" name="star_voted" value="4">
+                            <label for="item_rating" class="label_rating"></label>
+                            <input type="radio" checked id="item_rating" class="label_input" name="star_voted" value="3">
+                            <label for="item_rating" class="label_rating"></label>
+                            <input type="radio" id="item_rating" class="label_input" name="star_voted" value="2">
+                            <label for="item_rating" class="label_rating"></label>
+                            <input type="radio" id="item_rating" class="label_input" name="star_voted" value="1">
+                            <label for="item_rating" class="label_rating"></label>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="delete_button">Delete</button>
+                        <button class="buy_buttton">Buy Now</button>
+                    </div>
+                </div> -->
+            </div>
+            <footer>
+                <h3>Follow us On</h3>
+                <section>
+                    <span><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></span>
+                    <span><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></span>
+                    <span><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></span>
+                    <span><a href="#"><ion-icon name="logo-amazon"></ion-icon></a></span>
+                </section>
+                <p>Developed by Sulaimanov Ⓒ2022</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

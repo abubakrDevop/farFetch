@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Orbitron&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+p, a {
+    font-family: 'Poppins', sans-serif;
+}
+
+a,
+ul,
+ol {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* :root {
+    
+} */
+
+/* -------------------------------------- */
+
+.container {
+    width: 100%;
+    max-height: 5000vh;
+    background: white;
+    /* overflow: hidden; */
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 10px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    left: 20px;
+    width: 115px;
+    height: 25px;
+    background-image: url(../img/logo.png);
+    background-size: 100% 100%;
+}
+
+.box_right_items {
+    position: relative;
+    right: 20px;
+    width: 510px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home {
+    position: relative;
+    left: 0px;
+    border: none;
+    background: none;
+}
+
+.home a {
+    position: relative;
+    top: -2px;
+    color: black;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.home a ion-icon {
+    position: relative;
+    top: 4px;
+    font-size: 25px;
+}
+
+.input_box {
+    position: relative;
+    left: 0px;
+    width: 200px;
+    height: 40px;
+    background: rgb(207, 205, 205);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input_box input {
+    width: 90%;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.input_box span {
+    position: relative;
+    top: 2px;
+    left: -11px;
+    font-size: 20px;
+}
+
+.post_category {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    width: 200px;
+    max-height: 40px;
+    border-radius: 20px;
+    padding: 0px 10px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.post_category section {
+    position: relative;
+    top: -1px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choose_active {
+    border: solid 1px rgba(0, 0, 0, 0.459) !important;
+    border-radius: 20px !important;
+}
+
+.category_section_active {
+    height: 0px !important;
+    visibility: hidden;
+}
+
+.post_category button {
+    width: 111%;
+    height: 40px;
+    border-left: solid 1px rgba(0, 0, 0, 0.568) !important;
+    border-right: solid 1px rgba(0, 0, 0, 0.568) !important;
+    border: none;
+    outline: none;
+    padding: 0px 0px 0px 15px;
+    text-align: left;
+    background: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.post_category .choose {
+    border-top: solid 1px rgba(0, 0, 0, 0.568) !important;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.post_category ion-icon {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.post_category .choose_remove {
+    position: absolute;
+    top: 12px;
+    display: none;
+}
+
+.post_category .choose .choose_icon {
+    transition: .5s;
+}
+
+.choose_icon_active {
+    transform: rotate(180deg);
+}
+
+.post_category .category:hover {
+    background: rgb(209, 207, 207);
+}
+
+.post_category .all_stuff {
+    border-bottom: solid 1px rgba(0, 0, 0, 0.568) !important;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card_inner {
+    width: 100%;
+    max-height: 4950vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    top: 30px;
+    margin: 20px 40px;
+    width: 300px;
+    height: 450px;
+    box-shadow: 0 0 5px black;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_hide {
+    display: none;
+}
+
+.card .img_inner {
+    width: 100%;
+    height: 250px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.486);
+    background-image: url(../img/loaderforimg.gif);
+    background-size: 100% 100%;
+}
+
+.card .img_inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.card h2 {
+    position: relative;
+    font-size: 22px;
+    margin-top: 13px;
+}
+
+.card p {
+    position: relative;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 90%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.514);
+}
+
+.card .grade {
+    position: relative;
+    top: -5px;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.card .grade::before {
+    content: '★★★★★';
+    display: block;
+}
+
+.card .items {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+}
+
+.card .label_input {
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    opacity: 0;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+}
+
+.card .label_rating {
+    cursor: pointer;
+    flex: 0 0 20%;
+    height: 100%;
+    color: rgb(153, 140, 140);
+}
+
+.card .label_rating::before {
+    content: '★';
+    display: block;
+    transition: color 0.3s ease 0s;
+}
+
+.card .label_rating:hover,
+.card .label_rating:hover ~ .label_rating,
+.card .label_rating:checked ~ .label_rating:hover {
+    color: yellow;
+}
+
+.label_input:checked,
+.card .label_input:checked ~ .label_rating {
+    color: rgb(255, 196, 0);
+}
+
+.card .buttons {
+    width: 100%;
+    display: flex;
+    /* margin-top: 40px; */
+}
+
+.card .buy_buttton {
+    position: relative;
+    width: 50%;
+    height: 40px;
+    border: none;
+    background: rgb(66, 66, 235);
+    border-radius: none !important;
+    color: white;
+    font-weight: bold;
+}
+
+.card .delete_button {
+    width: 50%;
+    height: 40px;
+    border: none;
+    background: rgb(236, 17, 17);
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+}

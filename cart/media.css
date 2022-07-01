@@ -1,0 +1,355 @@
+@media (max-width: 750px) {
+    header {
+        height: 70px;
+    }
+
+    .logo {
+        width: 100px;
+        height: 20px;
+    }
+
+    .box_right_items {
+        width: 410px;
+    }
+
+    .home a {
+        font-size: 16px;
+    } 
+
+    .home a ion-icon {
+        font-size: 20px;
+    }
+
+    .input_box {
+        width: 160px;
+    }
+
+    .input_box span {
+        font-size: 17px;
+    }
+
+    .post_category {
+        width: 160px;
+    }
+
+    .post_category button {
+        font-size: 14px;
+    }
+
+    .post_category ion-icon {
+        top: 12px;
+        font-size: 18px;
+    }
+
+    .card {
+        width: 250px;
+        height: 350px;
+    }
+
+    .card .img_inner {
+        height: 200px;
+    }
+
+    .card h2 {
+        font-size: 17px;
+        margin-top: 5px;
+    }
+    
+    .card p {
+        font-size: 10px;
+        margin-top: 0px;
+    }
+
+    .card .grade {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        height: 60px;
+    }
+
+    .logo {
+        width: 100px;
+        height: 20px;
+    }
+
+    .box_right_items {
+        width: 360px;
+    }
+
+    .home a {
+        font-size: 13px;
+    } 
+
+    .home a ion-icon {
+        font-size: 18px;
+    }
+
+    .input_box {
+        width: 140px;
+        height: 30px;
+        left: 3px;
+    }
+
+    .input_box input {
+        padding: 0px 12px;
+    }
+
+    .input_box span {
+        font-size: 16px;
+    }
+
+    .post_category {
+        width: 140px;
+        height: 30px;
+    }
+
+    .post_category button {
+        font-size: 12px;
+        height: 30px;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .post_category ion-icon {
+        top: 9px;
+        font-size: 15px;
+    }
+
+    .post_category .choose_remove {
+        top: 9px;
+    }
+}
+
+@media (max-width: 500px) {
+    header {
+        height: 50px;
+    }
+
+    .logo {
+        width: 80px;
+        height: 15px;
+    }
+
+    .box_right_items {
+        width: 290px;
+    }
+
+    .home a {
+        font-size: 12px;
+    } 
+
+    .home a ion-icon {
+        font-size: 16px;
+        top: 2px;
+    }
+
+    .input_box {
+        width: 110px;
+        height: 25px;
+        left: 3px;
+    }
+
+    .input_box input {
+        padding: 2px 0px 0px 10px;
+        font-size: 10px;
+    }
+
+    .input_box span {
+        font-size: 12px;
+    }
+
+    .post_category {
+        top: 1px;
+        width: 110px;
+        height: 25px;
+    }
+
+    .post_category button {
+        font-size: 10px;
+        height: 25px;
+        padding: 2px 0px 0px 9px;
+    }
+
+    .post_category .choose {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .post_category .all_stuff {
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .post_category ion-icon {
+        top: 7px;
+        font-size: 13px;
+    }
+
+    .post_category .choose_remove {
+        top: 7px;
+    }
+
+    .card {
+        width: 200px;
+        height: 280px;
+    }
+
+    .card .img_inner {
+        height: 150px;
+    }
+
+    .card h2 {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    
+    .card p {
+        font-size: 9px;
+        margin-top: 0px;
+    }
+
+    .card .buy_buttton,
+    .card .delete_button  {
+        height: 25px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 414px) {
+    header {
+        height: 30px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 10px;
+        left: 10px;
+    }
+
+    .box_right_items {
+        width: 260px;
+        right: 7px;
+    }
+
+    .home a {
+        font-size: 8px;
+        top: -1px;
+    } 
+
+    .home a ion-icon {
+        font-size: 10px;
+        top: 1px;
+    }
+
+    .input_box {
+        width: 110px;
+        height: 15px;
+        left: 3px;
+    }
+
+    .input_box input {
+        padding: 1px 0px 0px 7px;
+        font-size: 8px;
+    }
+
+    .input_box span {
+        font-size: 8px;
+        left: -5px;
+    }
+
+    .post_category {
+        top: 1px;
+        width: 110px;
+        height: 15px;
+    }
+
+    .post_category button {
+        font-size: 7px;
+        height: 15px;
+        padding: 1px 0px 0px 6px;
+    }
+
+    .post_category ion-icon {
+        top: 3px;
+        right: -0px;
+        font-size: 10px;
+    }
+
+    .post_category .choose_remove {
+        top: 3px;
+        right: -1px;
+    }
+
+    .post_category .choose {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .post_category .all_stuff {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .card {
+        top: 10px;
+        width: 100px;
+        height: 147px;
+        margin: 5px 10px;
+    }
+
+    .card .img_inner {
+        height: 75px;
+    }
+
+    .card h2 {
+        font-size: 8px;
+        margin-top: 5px;
+    }
+    
+    .card p {
+        font-size: 6px;
+        margin-top: 0px;
+    }
+
+    .card .grade {
+        top: -2px;
+        font-size: 10px;
+    }
+
+    .card .buy_buttton,
+    .card .delete_button  {
+        height: 15px;
+        font-size: 5px;
+    }
+}
+
+@media (max-width: 350px) {
+    .box_right_items {
+        width: 200px;
+        right: 7px;
+    }
+
+    .input_box {
+        width: 80px;
+        height: 15px;
+        left: 3px;
+    }
+
+    .post_category {
+        top: 1px;
+        width: 80px;
+        height: 15px;
+    }
+
+    .post_category .choose {
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+    }
+
+    .post_category .all_stuff {
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+}
